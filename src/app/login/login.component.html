@@ -1,0 +1,46 @@
+<!-- <ion-header>
+  <ion-toolbar color="couponzcorner">
+    <!-- <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button> 
+    </ion-buttons> --
+    <ion-title class="ion-text-center">
+      Login
+    </ion-title>
+    <!-- <ion-buttons slot="end">
+      <ion-button (click)="navigateToSearchPage()">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons> --
+  </ion-toolbar>
+</ion-header>-->
+<ion-content>   
+
+  <div class="masthead h-100">
+    <div class="masthead-content text-white">
+        <div class="container-fluid px-4 px-lg-0">
+         <div class="row">
+           <div class="text-center mb-5">
+         <img src="assets/images/twad.JPG" style="width:40%" class="user-avatar1" />
+       </div>
+         <!-- <h4>TWAD Admin Panel</h4> -->
+         <form (ngSubmit)="onSubmit()" #adminLoginForm="ngForm">
+          <ion-item lines="full" class="m-1">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="text" [(ngModel)]="userRequest.email" name="email" required></ion-input>
+          </ion-item>
+          <ion-item lines="full" class="m-1">
+            <ion-label position="floating">Password</ion-label>
+            <ion-input type="password" [(ngModel)]="userRequest.password" name="password" required></ion-input>
+          </ion-item>
+          <ion-row>
+            <ion-col>
+              <ion-button type="submit" color="danger" expand="block" [disabled]="!(adminLoginForm.valid )">Sign In</ion-button>        
+            </ion-col>
+          </ion-row>
+        </form>
+        </div>
+        </div>
+    </div>
+</div>
+  
+</ion-content>

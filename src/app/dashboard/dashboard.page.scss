@@ -1,0 +1,61 @@
+.bg-main{
+  background-color: #084a83;
+}
+
+.bg-gray {
+  background-color: #f7f7f7;    
+}
+
+.label-cl {
+  color: grey;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+}
+
+.example-header {
+  min-height: 64px;
+  padding: 8px 24px 0;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.mat-table {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+.mb-table-font{
+  font-size: 13px;
+}
+
+.table {
+  font-size: 11px !important;
+}
+
+.card-header {
+  font-size: 20px;
+  margin: 0px;
+  padding: 10px;
+  background-color: red;
+  color:white;
+}
+
+td {
+  color: black;
+}
+
+.table-title span {
+  font-weight: bold;
+  margin-left: 10px
+}

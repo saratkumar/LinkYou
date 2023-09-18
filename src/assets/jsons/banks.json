@@ -1,0 +1,47 @@
+[
+    {
+        "tagId": 79,
+        "tagName": "HDFC Bank Offers",
+        "tagSlug": "hdfc-offers-coupons",
+        "tagImage": "hdfc.webp",
+        "awsTagImage": "assets/imgs/logos/hdfc.webp",
+        "tagType": "bank",
+        "couponCount": 19
+    },
+    {
+        "tagId": 90,
+        "tagName": "Mobikwik Wallet Offers",
+        "tagSlug": "mobikwik-wallet-offers-coupons",
+        "tagImage": "mobikwik.webp",
+        "awsTagImage": "assets/imgs/logos/mobikwik.webp",
+        "tagType": "bank",
+        "couponCount": 32
+    },
+    {
+        "tagId": 90,
+        "tagName": "SBI Offers",
+        "tagSlug": "sbi-offers-coupons",
+        "tagImage": "sbi.webp",
+        "awsTagImage": "assets/imgs/logos/sbi.webp",
+        "tagType": "bank",
+        "couponCount": 90
+    },
+    {
+        "tagId": 90,
+        "tagName": "Citi Offers",
+        "tagSlug": "citibank-offers-coupons",
+        "tagImage": "citibank.webp",
+        "awsTagImage": "assets/imgs/logos/citi.webp",
+        "tagType": "bank",
+        "couponCount": 17
+    },
+    {
+        "tagId": 90,
+        "tagName": "ICICI Offers",
+        "tagSlug": "icici-offers-coupons",
+        "tagImage": "icici.webp",
+        "awsTagImage": "assets/imgs/logos/icici.webp",
+        "tagType": "bank",
+        "couponCount": 32
+    }
+]

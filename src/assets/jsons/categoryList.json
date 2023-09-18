@@ -1,0 +1,274 @@
+[
+    {
+        "categoryId": 26,
+        "categoryName": "Beauty",
+        "categorySlug": "beauty-coupons",
+        "categoryImage": "beauty.webp",
+        "awsCategoryImage": "assets/imgs/logos/beauty.webp",
+        "couponCount": 27
+    },
+    {
+        "categoryId": 78,
+        "categoryName": "Bus Ticket",
+        "categorySlug": "bus-ticket-coupons",
+        "categoryImage": "bus.webp",
+        "awsCategoryImage": "assets/imgs/logos/bus.webp",
+        "couponCount": 35
+    },
+    {
+        "categoryId": 66,
+        "categoryName": "Cab",
+        "categorySlug": "cab-coupons",
+        "categoryImage": "cab.webp",
+        "awsCategoryImage": "assets/imgs/logos/cab.webp",
+        "couponCount": 2
+    },
+    {
+        "categoryId": 13,
+        "categoryName": "Camera",
+        "categorySlug": "camera-coupons",
+        "categoryImage": "camera.webp",
+        "awsCategoryImage": "assets/imgs/logos/camera.webp",
+        "couponCount": 14
+    },
+    {
+        "categoryId": 31,
+        "categoryName": "Chocolate",
+        "categorySlug": "chocolate-coupons",
+        "categoryImage": "chocolate.webp",
+        "awsCategoryImage": "assets/imgs/logos/chocolate.webp",
+        "couponCount": 3
+    },
+    {
+        "categoryId": 69,
+        "categoryName": "Clothing",
+        "categorySlug": "clothing-coupons",
+        "categoryImage": "clothing.webp",
+        "awsCategoryImage": "assets/imgs/logos/clothing.webp",
+        "couponCount": 101
+    },
+    {
+        "categoryId": 16,
+        "categoryName": "Computer Accessories",
+        "categorySlug": "computer-accessories-coupons",
+        "categoryImage": "computeraccessories.webp",
+        "awsCategoryImage": "assets/imgs/logos/computeraccessories.webp",
+        "couponCount": 3
+    },
+    {
+        "categoryId": 21,
+        "categoryName": "Electronics",
+        "categorySlug": "electronics-coupons",
+        "categoryImage": "electronics.webp",
+        "awsCategoryImage": "assets/imgs/logos/electronics.webp",
+        "couponCount": 1
+    },
+    {
+        "categoryId": 62,
+        "categoryName": "Entertainment",
+        "categorySlug": "entertainment-coupons",
+        "categoryImage": "entertainment.webp",
+        "awsCategoryImage": "assets/imgs/logos/entertainment.webp",
+        "couponCount": 2
+    },
+    {
+        "categoryId": 47,
+        "categoryName": "Fashion",
+        "categorySlug": "fashion-coupons",
+        "categoryImage": "fashion.webp",
+        "awsCategoryImage": "assets/imgs/logos/fashion.webp",
+        "couponCount": 57
+    },
+    {
+        "categoryId": 5,
+        "categoryName": "Flights",
+        "categorySlug": "flights-coupons",
+        "categoryImage": "flights.webp",
+        "awsCategoryImage": "assets/imgs/logos/flights.webp",
+        "couponCount": 21
+    },
+    {
+        "categoryId": 22,
+        "categoryName": "Food",
+        "categorySlug": "food-coupons",
+        "categoryImage": "food.webp",
+        "awsCategoryImage": "assets/imgs/logos/food.webp",
+        "couponCount": 33
+    },
+    {
+        "categoryId": 1,
+        "categoryName": "Footwear",
+        "categorySlug": "footwear-coupons",
+        "categoryImage": "footwear.webp",
+        "awsCategoryImage": "assets/imgs/logos/footwear.webp",
+        "couponCount": 13
+    },
+    {
+        "categoryId": 39,
+        "categoryName": "Furniture",
+        "categorySlug": "furniture-coupons",
+        "categoryImage": "furniture.webp",
+        "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+        "couponCount": 18
+    },
+    {
+        "categoryId": 33,
+        "categoryName": "Groceries",
+        "categorySlug": "groceries-coupons",
+        "categoryImage": "grocery.webp",
+        "awsCategoryImage": "assets/imgs/logos/grocery.webp",
+        "couponCount": 3
+    },
+    {
+        "categoryId": 8,
+        "categoryName": "Headphones",
+        "categorySlug": "headphones-coupons",
+        "categoryImage": "headphones.webp",
+        "awsCategoryImage": "assets/imgs/logos/headphones.webp",
+        "couponCount": 4
+    },
+    {
+        "categoryId": 15,
+        "categoryName": "Health",
+        "categorySlug": "health-coupons",
+        "categoryImage": "health.webp",
+        "awsCategoryImage": "assets/imgs/logos/health.webp",
+        "couponCount": 11
+    },
+    {
+        "categoryId": 65,
+        "categoryName": "Home Appliances",
+        "categorySlug": "home-appliances-coupons",
+        "categoryImage": "homeappliances.webp",
+        "awsCategoryImage": "assets/imgs/logos/homeappliances.webp",
+        "couponCount": 8
+    },
+    {
+        "categoryId": 12,
+        "categoryName": "Hotel",
+        "categorySlug": "hotel-coupons",
+        "categoryImage": "hotel.webp",
+        "awsCategoryImage": "assets/imgs/logos/hotel.webp",
+        "couponCount": 73
+    },
+    {
+        "categoryId": 28,
+        "categoryName": "Jewelry",
+        "categorySlug": "jewelry-coupons",
+        "categoryImage": "jewelry.webp",
+        "awsCategoryImage": "assets/imgs/logos/jewelry.webp",
+        "couponCount": 39
+    },
+    {
+        "categoryId": 29,
+        "categoryName": "Laptops",
+        "categorySlug": "laptops-coupons",
+        "categoryImage": "laptops.webp",
+        "awsCategoryImage": "assets/imgs/logos/laptops.webp",
+        "couponCount": 27
+    },
+    {
+        "categoryId": 72,
+        "categoryName": "LED Bulbs",
+        "categorySlug": "led-bulbs-coupons",
+        "categoryImage": "ledbulbs.webp",
+        "awsCategoryImage": "assets/imgs/logos/ledbulbs.webp",
+        "couponCount": 40
+    },
+    {
+        "categoryId": 51,
+        "categoryName": "Memory Cards",
+        "categorySlug": "memory-cards-coupons",
+        "categoryImage": "memorycard.webp",
+        "awsCategoryImage": "assets/imgs/logos/memorycard.webp",
+        "couponCount": 1
+    },
+    {
+        "categoryId": 23,
+        "categoryName": "Mobile",
+        "categorySlug": "mobile-coupons",
+        "categoryImage": "mobile.webp",
+        "awsCategoryImage": "assets/imgs/logos/mobile.webp",
+        "couponCount": 89
+    },
+    {
+        "categoryId": 9,
+        "categoryName": "Mobile Accessories",
+        "categorySlug": "mobile-accessories-coupons",
+        "categoryImage": "mobile-accessories.webp",
+        "awsCategoryImage": "assets/imgs/logos/mobile-accessories.webp",
+        "couponCount": 5
+    },
+    {
+        "categoryId": 27,
+        "categoryName": "Movie Tickets",
+        "categorySlug": "movie-tickets-coupons",
+        "categoryImage": "movietickets.webp",
+        "awsCategoryImage": "assets/imgs/logos/movietickets.webp",
+        "couponCount": 100
+    },
+    {
+        "categoryId": 46,
+        "categoryName": "Musical Instruments",
+        "categorySlug": "musical-instruments-coupons",
+        "categoryImage": "musical.webp",
+        "awsCategoryImage": "assets/imgs/logos/musical.webp",
+        "couponCount": 1
+    },
+    {
+        "categoryId": 53,
+        "categoryName": "Pets",
+        "categorySlug": "pets-coupons",
+        "categoryImage": "pets.webp",
+        "awsCategoryImage": "assets/imgs/logos/pets.webp",
+        "couponCount": 30
+    },
+    {
+        "categoryId": 54,
+        "categoryName": "Pizza",
+        "categorySlug": "pizza-coupons",
+        "categoryImage": "pizza.webp",
+        "awsCategoryImage": "assets/imgs/logos/pizza.webp",
+        "couponCount": 1
+    },
+    {
+        "categoryId": 24,
+        "categoryName": "Tablet",
+        "categorySlug": "tablet-coupons",
+        "categoryImage": "tablet.webp",
+        "awsCategoryImage": "assets/imgs/logos/tablet.webp",
+        "couponCount": 2
+    },
+    {
+        "categoryId": 38,
+        "categoryName": "Television",
+        "categorySlug": "television-coupons",
+        "categoryImage": "television.webp",
+        "awsCategoryImage": "assets/imgs/logos/television.webp",
+        "couponCount": 1
+    },
+    {
+        "categoryId": 77,
+        "categoryName": "Travel",
+        "categorySlug": "travel-coupons",
+        "categoryImage": "travel.webp",
+        "awsCategoryImage": "assets/imgs/logos/travel.webp",
+        "couponCount": 4
+    },
+    {
+        "categoryId": 4,
+        "categoryName": "Wallets",
+        "categorySlug": "wallets-coupons",
+        "categoryImage": "wallets.webp",
+        "awsCategoryImage": "assets/imgs/logos/wallets.webp",
+        "couponCount": 2
+    },
+    {
+        "categoryId": 3,
+        "categoryName": "Watches",
+        "categorySlug": "watches-coupons",
+        "categoryImage": "watches.webp",
+        "awsCategoryImage": "assets/imgs/logos/watches.webp",
+        "couponCount": 24
+    }
+]

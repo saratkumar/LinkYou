@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar color="couponzcorner">
+    <ion-buttons slot="start">
+      <ion-button (click)="goBack()">
+        <ion-icon name="arrow-round-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title class="ion-text-center"> Share our app </ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="navigateToSearchPage()">
+        <ion-icon name="search"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-button expand="full" (click)="shareWhatsApp()" color="success" class="ion-padding ion-margin">
+    <ion-icon name="logo-whatsapp"> </ion-icon> Share with WhatsApp
+  </ion-button>
+  <ion-button expand="full" (click)="shareTwitter()" color="couponzcorner" class="ion-padding ion-margin">
+    <ion-icon name="logo-twitter"></ion-icon>
+    Share on Twitter
+  </ion-button>
+  <ion-button expand="full" (click)="shareEmail()" color="secondary" class="ion-padding ion-margin">
+    <ion-icon name="mail"> </ion-icon> Share by Email
+  </ion-button>
+  <ion-button expand="full" (click)="shareFacebook()" color="info" class="ion-padding ion-color-primary ion-margin">
+    <ion-icon name="logo-facebook"> </ion-icon> Share on Facebook
+  </ion-button>
+
+</ion-content>

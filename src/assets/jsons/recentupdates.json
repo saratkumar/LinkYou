@@ -1,0 +1,50 @@
+[
+    {
+        "storeId": 364,
+        "storeName": "berrylook",
+        "storeSlug": "berrylook-coupons",
+        "storeLogo": "berrylook.jpg",
+        "couponCount": 94,
+        "awsStoreLogo": "assets/imgs/logos/berrylook.webp",
+        "storeHomeUrl": "www.berrylook.com",
+        "storeCurrency": "USD",
+        "storeType": "",
+        "storeIsFeatured": true,
+        "storeIsActive": true
+    },
+    {
+        "storeId": 720,
+        "storeName": "rakuten",
+        "storeSlug": "rakuten-coupons",
+        "storeLogo": "rakuten.jpg",
+        "couponCount": 27,
+        "awsStoreLogo": "assets/imgs/logos/rakuten.webp",
+        "storeHomeUrl": "www.rakuten.com",
+        "storeCurrency": "",
+        "storeType": "",
+        "storeIsActive": true
+    },
+    {
+        "storeId": 842,
+        "storeName": "ashleyfurniture",
+        "storeSlug": "ashleyfurniture-coupons",
+        "storeLogo": "ashleyfurniture.jpg",
+        "couponCount": 27,
+        "awsStoreLogo": "assets/imgs/logos/ashleyfurniture.webp",
+        "storeHomeUrl": "www.ashleyfurniture.com",
+        "storeCurrency": "",
+        "storeType": "",
+        "storeIsActive": true
+    },   
+    {
+        "storeId": 13928,
+        "storeName": "piedmontese",
+        "storeSlug": "piedmontese-coupons",
+        "storeLogo": "piedmontese.jpg",
+        "couponCount": 1,
+        "awsStoreLogo": "",
+        "storeHomeUrl": "www.piedmontese.com",
+        "storeCurrency": "",
+        "storeType": ""
+    }
+]

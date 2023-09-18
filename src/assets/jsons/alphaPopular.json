@@ -1,0 +1,612 @@
+{
+    "number": [],
+    "a": [
+        {
+            "storeId": 37,
+            "storeName": "Ajio",
+            "storeSlug": "ajio-coupons",
+            "storeLogo": "ajio.jpg",
+            "couponCount": 19,
+            "awsStoreLogo": "assets/imgs/logos/ajio.webp",
+            "storeHomeUrl": "www.ajio.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "b": [
+        {
+            "storeId": 1,
+            "storeName": "Bata India",
+            "storeSlug": "bata-india-coupons",
+            "storeLogo": "bata.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/bata.webp",
+            "storeHomeUrl": "www.bata.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 7,
+            "storeName": "Bigbasket",
+            "storeSlug": "bigbasket-coupons",
+            "storeLogo": "bigbasket.jpg",
+            "couponCount": 1,
+            "awsStoreLogo": "assets/imgs/logos/bigbasket.webp",
+            "storeHomeUrl": "www.bigbasket.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 13,
+            "storeName": "Bigrock",
+            "storeSlug": "bigrock-coupons",
+            "storeLogo": "bigrock.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/bigrock.webp",
+            "storeHomeUrl": "www.bigrock.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsActive": true
+        },
+        {
+            "storeId": 50,
+            "storeName": "Box8",
+            "storeSlug": "box8-coupons",
+            "storeLogo": "box8.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/box8.webp",
+            "storeHomeUrl": "www.box8.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 86,
+            "storeName": "Bookmyshow",
+            "storeSlug": "bookmyshow-coupons",
+            "storeLogo": "bookmyshow.jpg",
+            "couponCount": 80,
+            "awsStoreLogo": "assets/imgs/logos/bookmyshow.webp",
+            "storeHomeUrl": "www.bookmyshow.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        }
+    ],
+    "c": [
+        {
+            "storeId": 97,
+            "storeName": "Clovia",
+            "storeSlug": "clovia-coupons",
+            "storeLogo": "clovia.jpg",
+            "couponCount": 12,
+            "awsStoreLogo": "assets/imgs/logos/clovia.webp",
+            "storeHomeUrl": "www.clovia.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "d": [
+        {
+            "storeId": 18,
+            "storeName": "Dominos India",
+            "storeSlug": "dominos-india-coupons",
+            "storeLogo": "dominos.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/dominos.webp",
+            "storeHomeUrl": "www.dominos.co.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 303,
+            "storeName": "Dressafford",
+            "storeSlug": "dressafford-coupons",
+            "storeLogo": "dressafford.jpg",
+            "couponCount": 3,
+            "awsStoreLogo": "assets/imgs/logos/dressafford.webp",
+            "storeHomeUrl": "www.dressafford.com",
+            "storeCurrency": "USD",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "e": [
+        {
+            "storeId": 60,
+            "storeName": "EaseMyTrip",
+            "storeSlug": "easemytrip-coupons",
+            "storeLogo": "easemytrip.jpg",
+            "couponCount": 3,
+            "awsStoreLogo": "assets/imgs/logos/easemytrip.webp",
+            "storeHomeUrl": "www.easemytrip.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "f": [
+        {
+            "storeId": 12,
+            "storeName": "Firstcry",
+            "storeSlug": "firstcry-coupons",
+            "storeLogo": "firstcry.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/firstcry.webp",
+            "storeHomeUrl": "www.firstcry.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsActive": true
+        },
+        {
+            "storeId": 17,
+            "storeName": "Floweraura",
+            "storeSlug": "floweraura-coupons",
+            "storeLogo": "floweraura.jpg",
+            "couponCount": 9,
+            "awsStoreLogo": "assets/imgs/logos/floweraura.webp",
+            "storeHomeUrl": "www.floweraura.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsActive": true
+        },
+        {
+            "storeId": 39,
+            "storeName": "Flipkart",
+            "storeSlug": "flipkart-coupons",
+            "storeLogo": "flipkart.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/flipkart.webp",
+            "storeHomeUrl": "www.flipkart.com",
+            "storeCurrency": "INR",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 52,
+            "storeName": "Foodpanda",
+            "storeSlug": "foodpanda-coupons",
+            "storeLogo": "foodpanda.jpg",
+            "couponCount": 2,
+            "awsStoreLogo": "assets/imgs/logos/foodpanda.webp",
+            "storeHomeUrl": "www.foodpanda.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },       
+        {
+            "storeId": 87,
+            "storeName": "Freecharge",
+            "storeSlug": "freecharge-coupons",
+            "storeLogo": "freecharge.jpg",
+            "couponCount": 7,
+            "awsStoreLogo": "assets/imgs/logos/freecharge.webp",
+            "storeHomeUrl": "www.freecharge.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 136,
+            "storeName": "Faasos",
+            "storeSlug": "faasos-coupons",
+            "storeLogo": "faasos.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/faasos.webp",
+            "storeHomeUrl": "www.faasos.io",
+            "storeCurrency": "",
+            "storeType": "c",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 2329,
+            "storeName": "freshtohome",
+            "storeSlug": "freshtohome-coupons",
+            "storeLogo": "freshtohome.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/freshtohome.webp",
+            "storeHomeUrl": "www.freshtohome.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "g": [
+        {
+            "storeId": 74,
+            "storeName": "Godaddy",
+            "storeSlug": "godaddy-coupons",
+            "storeLogo": "godaddy.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/godaddy.webp",
+            "storeHomeUrl": "www.godaddy.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 92,
+            "storeName": "Grofers",
+            "storeSlug": "grofers-coupons",
+            "storeLogo": "grofers.jpg",
+            "couponCount": 1,
+            "awsStoreLogo": "assets/imgs/logos/grofers.webp",
+            "storeHomeUrl": "www.grofers.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "h": [
+        {
+            "storeId": 5,
+            "storeName": "Healthkart",
+            "storeSlug": "healthkart-coupons",
+            "storeLogo": "healthkart.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/healthkart.webp",
+            "storeHomeUrl": "www.healthkart.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 10,
+            "storeName": "Hostgator India",
+            "storeSlug": "hostgator-india-coupons",
+            "storeLogo": "hostgator.jpg",
+            "couponCount": 4,
+            "awsStoreLogo": "assets/imgs/logos/hostgator.webp",
+            "storeHomeUrl": "www.hostgator.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsActive": true
+        }
+    ],
+    "i": [
+        {
+            "storeId": 126,
+            "storeName": "Ixigo",
+            "storeSlug": "ixigo-coupons",
+            "storeLogo": "ixigo.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/ixigo.webp",
+            "storeHomeUrl": "www.ixigo.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "j": [
+        {
+            "storeId": 36,
+            "storeName": "Jabong",
+            "storeSlug": "jabong-coupons",
+            "storeLogo": "jabong.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/jabong.webp",
+            "storeHomeUrl": "www.jabong.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "k": [
+        {
+            "storeId": 96,
+            "storeName": "Kfc",
+            "storeSlug": "kfc-coupons",
+            "storeLogo": "kfc.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/kfc.webp",
+            "storeHomeUrl": "www.kfc.co.in",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "l": [
+        {
+            "storeId": 285,
+            "storeName": "Licious India",
+            "storeSlug": "licious-india-coupons",
+            "storeLogo": "licious.jpg",
+            "awsStoreLogo": "assets/imgs/logos/licious.webp",
+            "storeHomeUrl": "www.licious.in",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsActive": true
+        },
+        {
+            "storeId": 5567,
+            "storeName": "Licious",
+            "storeSlug": "licious-coupons",
+            "storeLogo": "licious.jpg",
+            "couponCount": 17,
+            "awsStoreLogo": "https://ilogoswebp.s3.us-east-2.amazonaws.com/licious.webp",
+            "storeHomeUrl": "www.licious.com",
+            "storeCurrency": "INR",
+            "storeType": "P",
+            "storeIsActive": true
+        }
+    ],
+    "m": [
+        {
+            "storeId": 9,
+            "storeName": "Medlife",
+            "storeSlug": "medlife-coupons",
+            "storeLogo": "medlife.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/medlife.webp",
+            "storeHomeUrl": "www.medlife.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsActive": true
+        },
+        {
+            "storeId": 43,
+            "storeName": "Myntra",
+            "storeSlug": "myntra-coupons",
+            "storeLogo": "myntra.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/myntra.webp",
+            "storeHomeUrl": "www.myntra.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 143,
+            "storeName": "Makemytrip",
+            "storeSlug": "makemytrip-coupons",
+            "storeLogo": "makemytrip.jpg",
+            "couponCount": 9,
+            "awsStoreLogo": "assets/imgs/logos/makemytrip.webp",
+            "storeHomeUrl": "www.makemytrip.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }       
+    ],
+    "n": [
+        {
+            "storeId": 11,
+            "storeName": "Nykaa",
+            "storeSlug": "nykaa-coupons",
+            "storeLogo": "nykaa.jpg",
+            "couponCount": 234,
+            "awsStoreLogo": "assets/imgs/logos/nykaa.webp",
+            "storeHomeUrl": "www.nykaa.com",
+            "storeCurrency": "INR",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "o": [
+        {
+            "storeId": 61,
+            "storeName": "Ola",
+            "storeSlug": "ola-coupons",
+            "storeLogo": "ola.jpg",
+            "couponCount": 1,
+            "awsStoreLogo": "assets/imgs/logos/ola.webp",
+            "storeHomeUrl": "www.olacabs.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 191,
+            "storeName": "oyorooms",
+            "storeSlug": "oyorooms-coupons",
+            "storeLogo": "oyorooms.jpg",
+            "couponCount": 2,
+            "awsStoreLogo": "assets/imgs/logos/oyorooms.webp",
+            "storeHomeUrl": "www.oyorooms.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "p": [
+        {
+            "storeId": 6,
+            "storeName": "Paytm",
+            "storeSlug": "paytm-coupons",
+            "storeLogo": "paytm.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/paytm.webp",
+            "storeHomeUrl": "www.paytm.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 31,
+            "storeName": "Pepperfry",
+            "storeSlug": "pepperfry-coupons",
+            "storeLogo": "pepperfry.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/pepperfry.webp",
+            "storeHomeUrl": "www.pepperfry.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsActive": true
+        }        
+    ],
+    "q": [],
+    "r": [
+        {
+            "storeId": 35,
+            "storeName": "Redbus",
+            "storeSlug": "redbus-coupons",
+            "storeLogo": "redbus.jpg",
+            "couponCount": 29,
+            "awsStoreLogo": "assets/imgs/logos/redbus.webp",
+            "storeHomeUrl": "www.redbus.in",
+            "storeCurrency": "INR",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ],
+    "s": [        
+        {
+            "storeId": 26,
+            "storeName": "Shopclues",
+            "storeSlug": "shopclues-coupons",
+            "storeLogo": "shopclues.jpg",
+            "couponCount": 3,
+            "awsStoreLogo": "assets/imgs/logos/shopclues.webp",
+            "storeHomeUrl": "www.shopclues.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 33,
+            "storeName": "Swiggy",
+            "storeSlug": "swiggy-coupons",
+            "storeLogo": "swiggy.jpg",
+            "couponCount": 2,
+            "awsStoreLogo": "assets/imgs/logos/swiggy.webp",
+            "storeHomeUrl": "www.swiggy.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }       
+    ],
+    "t": [
+        {
+            "storeId": 4,
+            "storeName": "Tatacliq",
+            "storeSlug": "tatacliq-coupons",
+            "storeLogo": "tatacliq.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+            "storeHomeUrl": "www.tatacliq.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 4961,
+            "storeName": "ticketnew",
+            "storeSlug": "ticketnew-coupons",
+            "storeLogo": "ticketnew.jpg",
+            "couponCount": 20,
+            "awsStoreLogo": "assets/imgs/logos/ticketnew.webp",
+            "storeHomeUrl": "www.ticketnew.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        }
+    ],
+    "u": [
+        {
+            "storeId": 68,
+            "storeName": "Uber",
+            "storeSlug": "uber-coupons",
+            "storeLogo": "uber.jpg",
+            "couponCount": 1,
+            "awsStoreLogo": "assets/imgs/logos/uber.webp",
+            "storeHomeUrl": "www.uber.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 124,
+            "storeName": "Urbanclap",
+            "storeSlug": "urbanclap-coupons",
+            "storeLogo": "urbanclap.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/urbanclap.webp",
+            "storeHomeUrl": "www.urbanclap.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        }
+    ],
+    "v": [],
+    "w": [],
+    "x": [],
+    "y": [],
+    "z": [
+        {
+            "storeId": 40,
+            "storeName": "Zivame",
+            "storeSlug": "zivame-coupons",
+            "storeLogo": "zivame.jpg",
+            "couponCount": 16,
+            "awsStoreLogo": "assets/imgs/logos/zivame.webp",
+            "storeHomeUrl": "www.zivame.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 121,
+            "storeName": "Zoomcar",
+            "storeSlug": "zoomcar-coupons",
+            "storeLogo": "zoomcar.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/zoomcar.webp",
+            "storeHomeUrl": "www.zoomcar.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        {
+            "storeId": 138,
+            "storeName": "Zomato",
+            "storeSlug": "zomato-coupons",
+            "storeLogo": "zomato.jpg",
+            "couponCount": 0,
+            "awsStoreLogo": "assets/imgs/logos/zomato.webp",
+            "storeHomeUrl": "www.zomato.com",
+            "storeCurrency": "",
+            "storeType": "G",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        }
+    ]
+}

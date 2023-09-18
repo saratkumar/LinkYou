@@ -1,0 +1,60 @@
+{
+  "project_info": {
+    "project_number": "30856065975",
+    "firebase_url": "https://goaltrakr.firebaseio.com",
+    "project_id": "goaltrakr",
+    "storage_bucket": "goaltrakr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30856065975:android:2829c983126a1541972e32",
+        "android_client_info": {
+          "package_name": "app.goaltrakr.PathMate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30856065975-qopgtsm91s885i7j43c89vjtm4kkgth1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.goaltrakr.PathMate",
+            "certificate_hash": "50cab53e4a5c23f9f0cbf447cc7dca783bb52361"
+          }
+        },
+        {
+          "client_id": "30856065975-9g47979h21v0mquheh1va225j31n6c3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.goaltrakr.PathMate",
+            "certificate_hash": "10573e9886ffd9756c04e804409a5687616deb32"
+          }
+        },
+        {
+          "client_id": "30856065975-qah2ipm4ckf8lufrvcsf9rk27b9jbsj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.goaltrakr.PathMate",
+            "certificate_hash": "b72aa0cba4fbf2c831efab6721c5bc20768eb0e6"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcitVirZmx6BqmpxlTrD5kX94MWS-kCos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30856065975-oqc3dbfj957k6lve04ols1leaagquqjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
