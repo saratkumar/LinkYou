@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, ViewChild, ViewChildren } from '@angular/core';
 import { SocialSharing } from '@ionic-native/social-sharing/ngx';
-
+import { OverlayEventDetail } from '@ionic/core/components';
+import { EventComponent } from 'src/app/event/event.component';
 
 @Component({
   selector: 'app-footer',
@@ -11,6 +12,7 @@ export class FooterComponent {
 
   text = 'Hey, Download couponzcorner app for great saving coupons & offers & more!';
   url = 'http://bit.ly/savejiapp';
+  @ViewChild(EventComponent) eventComponent: EventComponent;
 
   constructor(private socialSharing: SocialSharing) {
 
@@ -34,6 +36,10 @@ export class FooterComponent {
 
   async shareAll() {
     this.socialSharing.share(this.text, null, null, this.url);
+  }
+
+  openPost() {
+    this.eventComponent.setNewModal(true);
   }
 
 }

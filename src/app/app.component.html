@@ -22,6 +22,18 @@
         </ion-list>
       </ion-content>
     </ion-menu>
-    <ion-router-outlet main id="menuContent"></ion-router-outlet>
+    <div class="ion-page" id="menuContent">
+      <ion-content> 
+        <ion-router-outlet></ion-router-outlet>  
+        <!-- <app-location></app-location> -->
+      </ion-content>
+      <ion-footer *ngIf="userLoggedIn">
+        <ion-toolbar>
+          <app-footer></app-footer>
+        </ion-toolbar>
+      </ion-footer>
+    </div>
+    
+    
   </ion-split-pane>
 </ion-app>

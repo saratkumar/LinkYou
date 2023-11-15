@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "815102860462",
+    "project_id": "lifelinker-1199a",
+    "storage_bucket": "lifelinker-1199a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815102860462:android:b50d572b5c5239b49f613f",
+        "android_client_info": {
+          "package_name": "io.ionic.lifelinker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk5ZY1_gzsUJbEWNQ5Yn4QWJT62uC7x64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

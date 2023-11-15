@@ -1,4 +1,4 @@
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -28,11 +28,28 @@ import { WebSocketShareService } from './shared/services/websocketshare.service'
 import { WebSocketAPI } from './shared/services/websocketapi';
 import { DashboardService } from './shared/services/dashboard.service';
 import { SharedDataService } from './shared/services/shared-data.service';
+import { UserComponent } from './user/user.component';
+// import { AngularFireModule } from 'angularfire2';
+// import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { provideFirebaseApp, getApp, initializeApp } from '@angular/fire/app';
+import { getFirestore, provideFirestore } from '@angular/fire/firestore';
+import { Firebase } from '@ionic-native/firebase/ngx';
+import { UserService } from './shared/services/user.service';
+import { HttpReqResInterceptor } from './config/http.interceptor';
 export function tokenGetter() {
   return localStorage.getItem('token');
 }
+const firebaseConfig = {
+  apiKey: "AIzaSyAnfwQHyDyzV6i92k3U-o_rJQZ8RKleCz4",
+  authDomain: "lifelinker-1199a.firebaseapp.com",
+  projectId: "lifelinker-1199a",
+  storageBucket: "lifelinker-1199a.appspot.com",
+  messagingSenderId: "815102860462",
+  appId: "1:815102860462:web:8d3e83ce9812bfd09f613f",
+  measurementId: "G-LCNH5X4YJ2"
+};
 @NgModule({
-  declarations: [AppComponent, LoginComponent],
+  declarations: [AppComponent, LoginComponent, UserComponent],
   entryComponents: [],
   imports: [
     BrowserModule,
@@ -48,7 +65,10 @@ export function tokenGetter() {
     }),
     SharableModule,
     FormsModule, 
-    ReactiveFormsModule, NoopAnimationsModule
+    ReactiveFormsModule,
+    NoopAnimationsModule,
+    provideFirebaseApp(() => initializeApp(firebaseConfig)),
+    provideFirestore(() => getFirestore()),
   ],
   providers: [
     StatusBar,
@@ -65,7 +85,12 @@ export function tokenGetter() {
     WebSocketShareService,
     WebSocketAPI,
     DashboardService,
-    SharedDataService
+    SharedDataService,
+    Firebase,
+    UserService,
+    { 
+      provide: HTTP_INTERCEPTORS, useClass: HttpReqResInterceptor, multi:true
+    },
   ],
   bootstrap: [AppComponent]
 })

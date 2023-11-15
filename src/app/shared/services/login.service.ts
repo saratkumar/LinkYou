@@ -20,6 +20,12 @@ export class LoginService {
     return this.http.post(loginUrl, JSON.stringify(userRequest), { headers: headers });
   }
 
+  signUp(userRequest: UserRequest, otp: any){
+    let signupUrl = AppSettings.USER_SIGNUP_API;
+    let headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+    return this.http.post(signupUrl+ "?otp="+otp, JSON.stringify(userRequest), { headers: headers });
+  }
+
   sendCredential(model) {
     let tokenUrl1 = AppSettings.API_ENDPOINT + "/user/login";
     let headers1 = new HttpHeaders({ 'Content-Type': 'application/json' });

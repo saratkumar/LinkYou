@@ -1,27 +1,16 @@
 
 export class User {
 
-    public userId: number;
-    public userName: string;
+    public mobile: number;
+    public name: string;
     public email: string;
-    public mobileNumber: string;
+    public location: string;
     public password: string;
-    public created: Date;
-    public userRole: string;
-    public userStatus: string;
+    public latitude: Date;
+    public longitude: string;
+    public active: string;
     public emailVerified: string;
     public mobileVerified: string;
-    public firstName: string;
-    public lastName: string;
-    public pendingCashback:number;
-    public approvedCashback:number;
-
-
-    // only for ui for checkbox selection
-    public selected: boolean;
-
-    //for multiselect
-
-    public selectedUserRoles = [];
-    public selectedUserStatus = [];
+    public bloodGroup: string;
+    public id?: number;
 }

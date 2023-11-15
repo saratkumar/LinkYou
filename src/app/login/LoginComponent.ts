@@ -1,20 +1,21 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
-
+import { Animation, AnimationController } from '@ionic/angular';
 
 import { LoginService } from './../shared/services/login.service';
 import { AppSettings } from "../appsettings";
 // import { ReCaptchaV3Service } from 'ngx-captcha';
 import { CookieService } from 'ngx-cookie-service';
 import { JwtHelperService } from '@auth0/angular-jwt';
- import { UserRequest } from '../shared/models/UserRequest.bean';
-
+import { UserRequest } from '../shared/models/UserRequest.bean';
+import { ERROR_MSG } from '../shared/constants/error.constant';
+import { SharedDataService } from '../shared/services/shared-data.service';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss']
+  styleUrls: ['./login.component.scss', '../shared/styles/common.styles.scss']
 })
 export class LoginComponent implements OnInit {
  
@@ -25,12 +26,24 @@ export class LoginComponent implements OnInit {
   loginRememberMe: boolean = false;
   userRequest: UserRequest = new UserRequest();
   responseMsg: string = '';
-
+  showPin: boolean = false;
+  showSignupPage: boolean = false;
+  confirmPasswordError: boolean = false;
+  formDetails: any = {password: "", confirmPassword: "", otp: ""};
+  isInvalidOtp: boolean = false;
+  showExisitingUserPassword: boolean = false;
 
   // model = { 'username': '', 'password': '', 'rememberMe': '' };
   private currentUserName;
 
-  constructor(private jwtHelperService: JwtHelperService, private cookieService: CookieService, private formBuilder: FormBuilder, private loginService: LoginService, private router: Router) {
+  constructor(
+    private jwtHelperService: JwtHelperService, 
+    private cookieService: CookieService, 
+    private formBuilder: FormBuilder,
+    private loginService: LoginService,
+    private router: Router,
+    private animationCtrl: AnimationController,
+    private sharedService: SharedDataService) {
     this.currentUserName = localStorage.getItem(AppSettings.CURRENT_USER_NAME);
 
   }
@@ -38,21 +51,23 @@ export class LoginComponent implements OnInit {
 
 
   ngOnInit() {
-console.log("token in ngoninit in twad:: "+localStorage.getItem(AppSettings.TOKEN));
-console.log("Naveen: "+this.cookieService.get(AppSettings.TOKEN));
-    var decodedToken = this.jwtHelperService.decodeToken(localStorage.getItem(AppSettings.TOKEN));
+    // console.log("token in ngoninit in twad:: "+localStorage.getItem(AppSettings.TOKEN));
+    // console.log("Naveen: "+this.cookieService.get(AppSettings.TOKEN));
+    // var decodedToken = this.jwtHelperService.decodeToken(localStorage.getItem(AppSettings.TOKEN));
 
-    if (decodedToken && null != decodedToken && null != decodedToken.exp && this.isTokenValidStill(decodedToken.exp)) {
-      this.aFormGroup = this.formBuilder.group({
-        recaptcha: ['', Validators.required]
-      });
+    // if (decodedToken && null != decodedToken && null != decodedToken.exp && this.isTokenValidStill(decodedToken.exp)) {
+    //   this.aFormGroup = this.formBuilder.group({
+    //     recaptcha: ['', Validators.required]
+    //   });
 
 
-      this.router.navigate(['/dashboard']);
-    } else {
-      this.onLogout();
-      this.router.navigate(['/login']);
-    }
+    //   this.router.navigate(['/dashboard']);
+    // } else {
+    //   this.onLogout();
+    //   this.router.navigate(['/login']);
+    // }
+    this.sharedService.beSubject.next(false);
+
   }
 
   onLogout() {    
@@ -70,58 +85,75 @@ console.log("Naveen: "+this.cookieService.get(AppSettings.TOKEN));
 
   }
 
-  onSubmit() {
+  onSubmit(type?) {
+    this.isInvalidOtp = false;
+    this.confirmPasswordError = false;
+    this.responseMsg = "";
+    if(type) {
+      if(this.formDetails.password !== this.formDetails.confirmPassword) {
+        this.confirmPasswordError = true;
+        return;
+      } else {
+        this.userRequest.password = this.formDetails.password;
+      }
+    }
     console.log("submit from the home page now" + JSON.stringify(this.userRequest));
 
-    /*if (this.loginRememberMe) {
-      this.model.rememberMe = 'Y';
-    } else {
-      this.model.rememberMe = 'N';
-    }*/
-
-    this.loginService.login(this.userRequest).subscribe((data) => {
-      if (data && data["message"] && data["message"].includes("Invalid login")) {
-        this.responseMsg = "Invalid username/password";
-      } else {
-        this.responseMsg = "";
-        this.cookieService.set(AppSettings.TOKEN, data["data"]["token"], 6.9472);
-        this.cookieService.set(AppSettings.CURRENT_USER_NAME, data["data"]["email"], 6.9472);
-        localStorage.setItem(AppSettings.TOKEN, data["data"]["token"]);
-        localStorage.setItem(AppSettings.CURRENT_USER_NAME,  data["data"]["email"]);
-        console.log("token in submit:: "+localStorage.getItem(AppSettings.TOKEN));
-        this.router.navigate(['/dashboard']);
-        //this.router.navigate(['/']);
-        this.userRequest = new UserRequest();
-      }
-    });
-
-    // if remember me option is clicked then create the token with 24 hour validity
-    /*  this.loginService.loginWithGoogleFirebase(this.model.username, this.model.password).subscribe(
-        (data) => {
-  
-          this.googleLoginResponse = data;
-          console.log("response from the sendcredentials =>" + this.googleLoginResponse.idToken);
-  
-          localStorage.setItem(AppSettings.TOKEN, this.googleLoginResponse.idToken);
-          console.log("setting token in local storage completed");
-  
-          if (this.model.rememberMe === 'N') {
-            //this.cookieService.set(AppSettings.TOKEN, JSON.parse(JSON.stringify(data)), 0.0416);
-            // this.cookieService.set(AppSettings.CURRENT_USER_NAME, this.model.username, 0.0416);
-          } else {
-            // 0.0416 is roughly calculated per hour, so 167*0.0416 = 6.9472, 168 hour per week for backend timezone 1 hour minues and calculated for the token validity
-            this.cookieService.set(AppSettings.TOKEN, this.googleLoginResponse.idToken, 6.9472);
-            this.cookieService.set(AppSettings.CURRENT_USER_NAME, this.googleLoginResponse.localId, 6.9472);
-          }
-          this.blockUI.stop();
-          this.router.navigate(['/']);
-        },
-        error => {
-          this.blockUI.stop();
-          this.isCredentialCorrect = false;
+    if(type) {
+      this.loginService.signUp(this.userRequest, 123456).subscribe((data) => {
+        if (data && data["message"] && data["message"].includes("Invalid login")) {
+          this.responseMsg = "Invalid username/password";
+        } else {
+          this.responseMsg = "";
+          this.cookieService.set(AppSettings.TOKEN, data["data"], 6.9472);
+          this.cookieService.set(AppSettings.CURRENT_USER_NAME, data["data"]["email"], 6.9472);
+          localStorage.setItem(AppSettings.TOKEN, data["data"]);
+          localStorage.setItem(AppSettings.CURRENT_USER_NAME,  data["data"]["email"]);
+          console.log("token in submit:: "+localStorage.getItem(AppSettings.TOKEN));
+          this.showSignupPage = false;
+          this.sharedService.beSubject.next(true);
+          this.router.navigate(['/dashboard']);
+          //this.router.navigate(['/']);
+          this.userRequest = new UserRequest();
         }
-      );
-  */
+      }, (err) => {
+        if(err?.error?.error === ERROR_MSG.INVALID_OTP) {
+          this.isInvalidOtp = true;
+        }
+      });
+    } else {
+      this.userRequest.password = this.userRequest.password ? this.userRequest.password : "";
+      this.loginService.login(this.userRequest).subscribe((data) => {
+        if (data && data["message"] && data["message"].includes("Invalid login")) {
+          this.responseMsg = "Invalid username/password";
+        } else {
+          this.responseMsg = "";
+          this.cookieService.set(AppSettings.TOKEN, data["data"], 6.9472);
+          this.cookieService.set(AppSettings.CURRENT_USER_NAME, data["data"]["email"], 6.9472);
+          localStorage.setItem(AppSettings.TOKEN, data["data"]);
+          localStorage.setItem(AppSettings.CURRENT_USER_NAME,  data["data"]["email"]);
+          console.log("token in submit:: "+localStorage.getItem(AppSettings.TOKEN));
+          this.userRequest = new UserRequest();
+          this.sharedService.beSubject.next(true);
+          this.router.navigate(['/dashboard']);
+
+          this.showSignupPage = false;
+          //this.router.navigate(['/']);
+          
+        }
+      }, (err) => {
+        if(err?.error?.error === ERROR_MSG.USER_NOT_FOUND) {
+          this.responseMsg = "Invalid username/password";
+        } else {
+          if(this.showExisitingUserPassword) this.responseMsg = err?.error?.error; 
+          else this.showExisitingUserPassword = !this.showExisitingUserPassword
+        }
+      });
+    }
+
+    
+
+
   }
 
   adminLoginResolved(captchaResponse: string) {
@@ -140,4 +172,9 @@ console.log("Naveen: "+this.cookieService.get(AppSettings.TOKEN));
     }
     return false;
   }
+
+  onValidateLogin(): void {
+    // this.showPin = !this.showPin
+
+  };
 }

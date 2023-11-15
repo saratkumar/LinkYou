@@ -1,0 +1,128 @@
+<ion-header class="header">
+    <div class="back-container">
+      <div class="title">Account</div>
+    </div>
+      <div>
+        <ng-container *ngIf="!onProfileEdit">
+            <ion-button fill="outline" (click)="onProfileEdit = true"><ion-icon name="settings-outline"></ion-icon></ion-button>
+        
+            <ion-button fill="outline" (click)="logout()"><ion-icon slot="icon-only" name="log-out-outline"></ion-icon></ion-button>
+        </ng-container>
+        <ng-container *ngIf="onProfileEdit">
+            <ion-button fill="outline" (click)="onProfileEdit = false;"><ion-icon name="close-outline"></ion-icon></ion-button>
+            <ion-button fill="outline" (click)="onProfileEdit = false; onUserSave()"><ion-icon name="checkmark-outline"></ion-icon></ion-button>
+            
+        </ng-container>
+        
+      </div>
+    
+  </ion-header>
+  <ion-content>
+    <ion-grid *ngIf="!onProfileEdit">
+        <ion-row> 
+            <ion-col size="3" style="padding: 1px solid red; width: 100px; height:100px">
+                <div class="acc-img">
+                    <img
+                    src="https://ionic-docs-demo-v6.vercel.app/assets/madison.jpg"
+                    alt="The Wisconsin State Capitol building in Madison, WI at night"
+                />
+                </div>
+                
+            </ion-col>
+            <ion-col size="1"></ion-col>
+            <ion-col size="8">
+                <div class="acc-info">
+                    <p *ngIf="userInfo.name">{{userInfo.name}}</p>
+                    <!-- <p>SARATH KUMAR MANIMARAN</p> -->
+                    <p *ngIf="userInfo.mobile">(+91) {{userInfo.mobile}}</p>
+                    <!-- <p>testuser@lifelinker.com</p> -->
+                </div>
+            </ion-col>
+        </ion-row>
+        <div style="padding: 20px 0px" *ngIf="!userInfo.name || !userInfo.mobile || !userInfo.email || !userInfo.location || !userInfo.bloodGroup">
+            <ion-chip color="danger"> <ion-icon name="alert-outline"></ion-icon>Please update your profile</ion-chip>
+        </div>
+        <div class="acc-other-content">
+            <ng-container *ngIf="userInfo.email">
+                <app-custom-label value="Verified Email Address" > </app-custom-label>
+                <p>{{userInfo.email}}</p>
+                <hr width="100%">
+            </ng-container>
+            <ng-container *ngIf="userInfo.bloodGroup">
+                <app-custom-label value="Blood Group" > </app-custom-label>
+                <hr width="100%">
+                <p>{{userInfo.bloodGroup}}</p>
+            </ng-container>
+            <ng-container *ngIf="userInfo.location">
+                <app-custom-label value="Location" > </app-custom-label>
+                <hr width="100%">
+                <p>{{userInfo.location}}</p>
+            </ng-container>
+            
+            
+
+            <ion-row *ngIf="userInfo.latitude || userInfo.longitude">
+                <ion-col size="6">Latitude</ion-col>
+                <ion-col size="6">Longitude</ion-col>
+            </ion-row>
+            <ion-row *ngIf="userInfo.latitude || userInfo.longitude">
+                <ion-col size="6">{{userInfo.latitude}}</ion-col>
+                <ion-col size="6">{{userInfo.longitude}}</ion-col>
+            </ion-row>
+
+            <!-- <hr width="100%">
+            <app-custom-label value="Notification Perferences" > </app-custom-label>
+            <hr width="100%">
+
+            <ion-row>
+                <ion-col size="10">Whatsapp Notification</ion-col>
+                <ion-col size="2"><ion-toggle [enableOnOffLabels]="true"></ion-toggle></ion-col>
+            </ion-row>
+
+            <ion-row>
+                <ion-col size="10">Email Notification</ion-col>
+                <ion-col size="2"><ion-toggle [enableOnOffLabels]="true"></ion-toggle></ion-col>
+            </ion-row> -->
+
+        </div>
+    </ion-grid>
+
+    <ng-container *ngIf="onProfileEdit">
+        <ion-list>
+            <ion-item>
+                <ion-label position="fixed">Name</ion-label>
+                <ion-input placeholder="Username" [(ngModel)]="userInfo.name"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Mobile</ion-label>
+                <ion-input placeholder="User Mobile" [(ngModel)]="userInfo.mobile"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Email</ion-label>
+                <ion-input placeholder="Email" [(ngModel)]="userInfo.email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Full Address</ion-label>
+                <ion-input placeholder="Address" [(ngModel)]="userInfo.location"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Latitude</ion-label>
+                <ion-input placeholder="Latitude" [(ngModel)]="userInfo.latitude"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Longitude</ion-label>
+                <ion-input placeholder="Latitude" [(ngModel)]="userInfo.longitude"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="fixed">Blood Group</ion-label>
+                <ion-input placeholder="Latitude" [(ngModel)]="userInfo.bloodGroup"></ion-input>
+            </ion-item>
+        </ion-list>
+    </ng-container>
+    <!-- <ion-footer>
+        <ion-button style="height: 100%; width: 100%; margin:0;" >
+            <ion-icon name="arrow-forward-circle-sharp" size="large"></ion-icon> Logout
+          </ion-button>
+      </ion-footer> -->
+      <app-toast #toast></app-toast>
+  </ion-content>

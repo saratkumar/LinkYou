@@ -1,61 +1,59 @@
-.bg-main{
-  background-color: #084a83;
-}
+@use '../app.component.scss';
 
-.bg-gray {
-  background-color: #f7f7f7;    
-}
-
-.label-cl {
-  color: grey;
-}
-
-.example-container {
+.right-menu-buttons {
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  min-width: 300px;
+  gap: 10px;
+  font-size: 30px;
 }
 
-.example-header {
-  min-height: 64px;
-  padding: 8px 24px 0;
+ion-card-content {
+  padding: 5px;
 }
 
-.mat-form-field {
-  font-size: 14px;
-  width: 100%;
+app-custom-label {
+  ion-label {
+    padding-left: 0px !important;
+  }
+  
 }
 
-.mat-table {
-  overflow: auto;
-  max-height: 500px;
+ion-content {
+
+  ion-row {
+    width: 100%;
+    // margin-bottom: 10px;
+    p {
+      // padding-left: 5px;
+      font-size: 12px;
+    }
+  }
+
+  ion-card {
+    margin: 0;
+  }
+
+  .card {
+
+    label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px
+    }
+
+    .card-header-div {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  
 }
 
-.fs-12{
-  font-size: 12px;
+
+ion-content {
+ --background: white
 }
 
-.mb-table-font{
-  font-size: 13px;
-}
 
-.table {
-  font-size: 11px !important;
-}
-
-.card-header {
-  font-size: 20px;
-  margin: 0px;
-  padding: 10px;
-  background-color: red;
-  color:white;
-}
-
-td {
-  color: black;
-}
-
-.table-title span {
-  font-weight: bold;
-  margin-left: 10px
-}

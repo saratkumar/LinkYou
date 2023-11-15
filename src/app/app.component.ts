@@ -11,7 +11,13 @@ import { Subscription } from 'rxjs';
 import { User } from './shared/models/user';
 import { AppSettings } from './appsettings';
 import { CookieService } from 'ngx-cookie-service';
-
+import { SharedDataService } from './shared/services/shared-data.service';
+import {
+  ActionPerformed,
+  PushNotificationSchema,
+  PushNotifications,
+  Token,
+} from '@capacitor/push-notifications';
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
@@ -22,7 +28,7 @@ export class AppComponent implements OnInit, OnDestroy {
   private previousAuthState = false;
   loggedUserInfo = new User();
   photoUrl: string = '../../assets/default-avatar.svg';
-
+  appSettings = AppSettings;
   // set up hardware back button event.
   lastTimeBackPress = 0;
   timePeriodToExit = 2000;
@@ -52,10 +58,23 @@ export class AppComponent implements OnInit, OnDestroy {
     public network: Network,
     public networkProvider: NetworkProviderService,
     public toastController: ToastController,
-    public route: ActivatedRoute
+    public route: ActivatedRoute,
+    public sharedService: SharedDataService,
+    // public fcm: FcmService
   ) {
     this.initializeApp();
     this.backButtonEvent();
+  }
+  private notificationSetup() {
+    // this.fcm.getToken();
+    // this.fcm.onNotifications().subscribe(
+    //   (msg) => {
+    //     if (this.platform.is('ios')) {
+    //       this.presentToast(msg.aps.alert);
+    //     } else {
+    //       this.presentToast(msg.body);
+    //     }
+    //   });
   }
 
   initializeApp() {
@@ -66,6 +85,7 @@ export class AppComponent implements OnInit, OnDestroy {
 
       this.statusBar.styleDefault();
       this.splashScreen.hide();
+      this.notificationSetup();
 
       // added the below snippets to check the internet connectivity
       // Offline event
@@ -153,6 +173,42 @@ export class AppComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
+    this.sharedService.beSubject.subscribe((data: any) => {
+      this.userLoggedIn = data;
+    })
+
+
+    PushNotifications.requestPermissions().then(result => {
+      if (result.receive === 'granted') {
+        // Register with Apple / Google to receive push via APNS/FCM
+        PushNotifications.register();
+      } else {
+        // Show some error
+      }
+    });
+
+    PushNotifications.addListener('registration', (token: Token) => {
+      alert('Push registration success, token: ' + token.value);
+    });
+
+    PushNotifications.addListener('registrationError', (error: any) => {
+      alert('Error on registration: ' + JSON.stringify(error));
+    });
+
+    PushNotifications.addListener(
+      'pushNotificationReceived',
+      (notification: PushNotificationSchema) => {
+        alert('Push received: ' + JSON.stringify(notification));
+      },
+    );
+
+    PushNotifications.addListener(
+      'pushNotificationActionPerformed',
+      (notification: ActionPerformed) => {
+        alert('Push action performed: ' + JSON.stringify(notification));
+      },
+    );
+
   }
 
   ngOnDestroy() {
@@ -168,6 +224,7 @@ export class AppComponent implements OnInit, OnDestroy {
     localStorage.setItem('isLoggedin', 'false');
     this.cookieService.delete(AppSettings.TOKEN);
     this.cookieService.delete(AppSettings.CURRENT_USER_NAME);
+    this.sharedService.beSubject.next(false);
 //    alert("You just logged out.");
     this.router.navigate(['','login']);
   }

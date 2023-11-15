@@ -1,38 +1,38 @@
-.ion-color-couponzcorner {
-  --ion-color-base:#1B334B;
-  --ion-color-base-rgb: 69, 90, 100;
-  --ion-color-contrast: #FFFFFF;
-  --ion-color-contrast-rgb: 0,0,0;
-  --ion-color-shade: #e0e000;
-  --ion-color-tint: #ffff1a;
+$color-primary: #7B2869;
+$color-secondary: #9D3C72;
+$text-color: #70009ac4;
+
+$variants: (
+  primary: lightblue,
+  secondary: lightgreen,
+  tertiary: salmon
+);
+
+.header {
+  background: #5c309d;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  & ion-button {
+      --background: white;
+      color: #5c309d;
+  }
+
+  & .back-container {
+      display: flex;
+      color: white;
+      ion-button.back::part(native) {
+         padding: 5px;
+        } 
+  }
+
+  & .title {
+      margin: auto;
+      letter-spacing: 1px;
+      font-size: 14px;
+      padding-left: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
 }
 
-// Material Design Sidemenu
-#menu-material {
-  .menu-header {
-    padding: 5px 15px;
-    background-image: url('../assets/background.jpg');
-    background-size: cover;
-    color: white;
-    .name {
-      font-weight: 500;
-      margin-bottom: 3px;
-      margin-top:10px;
-      font-size:14px;
-    }   
-  }
-  .user-avatar {
-    max-width: 125px;height: 125px;
-    padding: .5em;
-    height: 12vh;
-  }
-  h3,
-  .label,
-  {
-    color: #999;
-    font-weight: 400;
-  }
-  ion-icon {
-    color: #777;
-  }
-}

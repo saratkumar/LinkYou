@@ -13,6 +13,9 @@ import { JwtModule, JwtHelperService, JWT_OPTIONS } from '@auth0/angular-jwt';
 import { CookieService } from 'ngx-cookie-service';
 import { LoginService } from '../shared/services/login.service';
 import { DashboardService } from '../shared/services/dashboard.service';
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { NativeGeocoder } from '@ionic-native/native-geocoder/ngx';
+import { LocationComponent } from '../shared/components/location/location.component';
 export function tokenGetter() {
   return localStorage.getItem('token');
 }
@@ -33,7 +36,7 @@ export function tokenGetter() {
     ]),
     SharableModule,
   ],
-  declarations: [Dashboard],
-  providers: [BrowserTab,CookieService,LoginService, DashboardService]
+  declarations: [Dashboard, LocationComponent],
+  providers: [Geolocation,BrowserTab,CookieService,LoginService, DashboardService,]
 })
 export class DashboardModule { }
