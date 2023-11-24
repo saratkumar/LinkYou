@@ -1,0 +1,76 @@
+<ion-content class="login">   
+
+  <div class="login">
+    <h3>LinkYou</h3>
+  </div>
+
+  <div class="logincontainer">
+    <h2 *ngIf="!showSignupPage"> Welcome Back!</h2>
+    <h2 *ngIf="showSignupPage"> Create Account</h2>
+    <ion-grid *ngIf="!showPin">
+      <ng-container *ngIf="!showSignupPage">
+        <ion-col size="12" class="p0" >
+          <input type="number" placeholder="Mobile Number(+91)" [(ngModel)]="userRequest.mobile" class="input">
+        </ion-col>
+
+        <ion-col size="12" class="p0" >
+          <input type="password" placeholder="Password" [(ngModel)]="userRequest.password" class="input">
+          <p class="error" *ngIf="responseMsg"> {{responseMsg}}</p>
+          
+        </ion-col>
+
+        <ion-col size="12" class="p0" >
+          <ion-button class="btn" (click)="onSubmit()" color="primary"> Login </ion-button>
+        </ion-col>
+
+        <ion-col size="12" class="p0" >
+          <p class="or-section">or</p>
+        </ion-col>   
+
+        <ion-col size="12" class="p0" >
+          <ion-button class="btn" (click)="showSignupPage = true" color="primary"> Signup </ion-button>
+        </ion-col>
+        
+        
+
+       
+        
+      </ng-container>
+      <ng-container *ngIf="showSignupPage">
+        
+        <!-- <ion-col size="12"> -->
+          
+          <ion-col size="12">
+            <input type="number" placeholder="Mobile Number(+91)" [(ngModel)]="userRequest.mobile" class="input">
+          </ion-col>
+          <ion-col size="12">
+            <input type="number" placeholder="password" [(ngModel)]="formDetails.password" class="input">
+          </ion-col>
+          <ion-col size="12">
+            <input type="number" placeholder="password" [(ngModel)]="formDetails.confirmPassword" class="input">
+          </ion-col>
+          <p class="error" *ngIf="confirmPasswordError"> Password doesnot match</p>
+
+          <ion-col size="12" class="p0" >
+            <ion-button class="btn" (click)="onSubmit('signup')" color="primary"> Signup </ion-button>
+          </ion-col>
+  
+          <ion-col size="12" class="p0" >
+            <p class="p0 or-section">or</p>
+          </ion-col> 
+  
+          <ion-col size="12" class="p0" >
+            <ion-button class="btn" (click)="showSignupPage = false" color="primary"> Login </ion-button>
+          </ion-col>
+        <!-- </ion-col> -->
+      </ng-container>
+      
+    </ion-grid>
+
+  </div>
+  
+</ion-content>
+<!-- <ion-footer class="footer">
+  <h4 *ngIf="!showSignupPage">Dont have an account? <u (click)="showSignupPage = true">Signup</u></h4>
+  <h4 *ngIf="showSignupPage">Already have an account? <u (click)="showSignupPage = false">Login</u></h4>
+</ion-footer> -->

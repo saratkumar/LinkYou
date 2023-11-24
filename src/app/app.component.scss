@@ -1,0 +1,33 @@
+$color-primary: #efa332;
+$color-secondary: #9D3C72;
+$text-color: #70009ac4;
+
+
+.header {
+  background: #efa332;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  & ion-button {
+      --background: white;
+      color: #efa332;
+  }
+
+  & .back-container {
+      display: flex;
+      color: white;
+      ion-button.back::part(native) {
+         padding: 5px;
+        } 
+  }
+
+  & .title {
+      margin: auto;
+      letter-spacing: 1px;
+      font-size: 14px;
+      padding-left: 10px;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+}
+

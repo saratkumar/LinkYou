@@ -1,0 +1,78 @@
+<ion-header class="header">
+  <div class="back-container">
+    <ion-button fill="clear" class="back" routerLink="/dashboard">
+      <ion-icon slot="icon-only" name="home"></ion-icon>
+    </ion-button>
+    <div class="title">Add Event</div>
+  </div>
+    <div>
+      <ion-button fill="solid" (click)="onSubmit()">
+        Create
+      <ion-icon name="add-circle-outline"></ion-icon>
+  </ion-button></div>
+  
+</ion-header>
+
+<ion-content class="ion-padding" [formGroup]="createForm">
+  <!-- <app-custom-label value="User Details"></app-custom-label> -->
+  
+  <ion-item fill="outline">
+    <ion-label position="floating">Name</ion-label>
+    <ion-input formControlName="name"></ion-input>
+  </ion-item>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Category</ion-label>
+      <ion-select placeholder="Select Category" formControlName="donationType" (ngModelChange)="onCategoryChange()">
+        <ion-select-option value="BLOOD">Blood</ion-select-option>
+        <ion-select-option value="FOOD">Food</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <ion-item fill="outline">
+    <ion-label position="floating">Quantity</ion-label>
+    <ion-input formControlName="estimatedQuantity"></ion-input>
+  </ion-item>
+
+  <ion-item fill="outline">
+    <ion-label position="floating">Address</ion-label>
+    <ion-input formControlName="fullAddress"></ion-input>
+  </ion-item>
+
+  <ion-item fill="outline">
+    <ion-label position="floating">Additional Info</ion-label>
+    <ion-input formControlName="additionalNote"></ion-input>
+  </ion-item>
+
+  <div  style="margin:20px 0px"> <ion-label>Expiry Date / Time</ion-label></div>
+
+  <app-custom-datetime (value)="setDateTimeValue($event)"></app-custom-datetime>
+  
+
+  <p class="imageP">Add Images</p>
+
+  <ion-row>
+    <div class="image-placeholder" (click)="onImageClick()" *ngIf="images.length < 3">
+      <input type="file" value="" (change)="onfileChange($event)" #fileUpload class="file">
+      <ion-icon name="add-outline" size="large"></ion-icon>
+    </div>
+    <div class="image-placeholder" *ngFor="let image of images; let index = index">
+      <ion-row>
+        <img [src]="image" *ngIf="image"/>
+      <ion-icon name="close-circle-outline" class="delete-icon" (click)="onImageRemove(index)"></ion-icon>
+      </ion-row>
+      
+    </div>
+  </ion-row>
+
+  
+
+
+  
+
+  <!-- <app-location></app-location> -->
+  <app-toast #toast></app-toast>
+</ion-content>
+

@@ -1,0 +1,156 @@
+<ion-header>
+
+  <ion-grid>
+    <ion-row style="padding:0">
+      <!-- <ion-col size="1">
+          <ion-toolbar color="couponzcorner">
+            <ion-menu-button></ion-menu-button>
+          </ion-toolbar>
+        </ion-col> -->
+      <ion-col size="10" style="padding:0">
+        <ion-searchbar animated="true" placeholder="Search" (input)="onSearchValueChange($event)"></ion-searchbar>
+      </ion-col>
+      <ion-col size="1" class="right-menu-buttons">
+        <ion-icon name="notifications-outline" color="primary"></ion-icon>
+      </ion-col>
+      <ion-col size="1" class="right-menu-buttons">
+        <ion-icon name="filter-outline" id="open-modal" expand="block" color="primary"></ion-icon>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+</ion-header>
+<ion-content>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12" *ngFor="let event of filteredEvents">
+        <!-- <ion-card> -->
+          <!-- <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" /> -->
+
+
+          <ion-grid class="card">
+            <div class="card-header-div">
+              <ion-row>
+                <ion-col size="10"> 
+                  <p>{{event.name}}</p>
+                </ion-col>
+                <ion-col size="2" *ngIf="event.donationType === 'BLOOD'">  <img src="./../../assets/images/blood-drop.png" /></ion-col>
+                <ion-col size="2" *ngIf="event.donationType === 'FOOD'">  <img src="./../../assets/images/bibimbap.png" /></ion-col>
+              </ion-row>
+            </div>
+
+            <!-- <ion-row>
+              <ion-col size="12"> <label>Name</label><br></ion-col>
+            </ion-row> -->
+            <!-- <ion-row>
+              <ion-col size="12">{{event.name}}</ion-col>
+            </ion-row> -->
+            <ion-row>
+              <ion-col size="12"><label> Full Address</label></ion-col>
+              <ion-col size="12"><p>{{event.fullAddress}}</p></ion-col>
+            </ion-row>
+            <ion-row>
+              <!-- <ion-col size="5"><label>Request Type</label></ion-col> -->
+              <ion-col size="12">
+                <label *ngIf="event.donationType === 'BLOOD'">Unit(s)</label>
+                <label *ngIf="event.donationType === 'FOOD'">Approx Quantity(person)</label>
+              </ion-col>
+            </ion-row>
+
+            <ion-row>
+              <!-- <ion-col size="5">{{event.donationType}}</ion-col> -->
+              <ion-col size="7"> <p>{{event.estimatedQuantity}}</p></ion-col>
+            </ion-row>
+
+            <ion-row>
+              <ion-col size="6"><label>Latitude</label></ion-col>
+              <ion-col size="6"><label>Longitude</label></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="6"><p>{{event.latitude}}</p></ion-col>
+              <ion-col size="6"><p>{{event.longitude}}</p></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="12"><label>Additional Info</label></ion-col>
+              <ion-col size="12"><p>{{event.additionalNote}}</p></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="6"><label>Posted on</label></ion-col>
+              <ion-col size="6"><label>Expires on</label></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="6"><p>{{event.donationPostedDateTime| date: 'dd-MM-YYYY hh:mm a'}}</p></ion-col>
+              <ion-col size="6"><p>{{event.expiryDate | date: 'dd-MM-YYYY hh:mm a'}}</p></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col size="9" *ngIf="event.interestedStatus === 'ACCEPTED'">
+                <ion-button expand="full" class="primary">Interested</ion-button>
+              </ion-col>
+              <ion-col size="3" *ngIf="event.interestedStatus === 'ACCEPTED'">
+                <ion-button fill="solid" (click)="onShowInterest(event, 'PENDING')">
+                  <ion-icon name="close-circle-outline"></ion-icon>
+                </ion-button>
+              </ion-col>
+              <ion-col size="12" *ngIf="!event.interestedStatus || event.interestedStatus === 'PENDING'">
+                <ion-button expand="full" class="primary" (click)="onShowInterest(event, 'ACCEPTED')">Show Interest</ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        <!-- </ion-card> -->
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-modal #modal trigger="open-modal" [presentingElement]="presentingElement">
+    <ng-template>
+      <!-- <ion-header>
+        <ion-toolbar>
+          <ion-title>Filter</ion-title>
+          <ion-buttons slot="end">
+            <ion-button fill="outline" (click)="modal.dismiss()">Clear</ion-button>
+            <ion-button (click)="modal.dismiss()">Apply</ion-button>
+            
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header> -->
+      <ion-header class="header">
+        <div class="back-container">
+          <div class="title">Filter</div>
+        </div>
+        <div>
+          <ion-button fill="outline" (click)="modal.dismiss(); onClear();">Clear</ion-button>
+          <ion-button (click)="modal.dismiss(); onFilter()">Apply</ion-button>
+        </div>
+
+      </ion-header>
+      <ion-content [formGroup]="filterForm">
+        <ion-list>
+          <ion-item>
+            <ion-label>Category</ion-label>
+            <ion-select placeholder="Select Category" formControlName="donationType">
+              <ion-select-option value="BLOOD">Blood</ion-select-option>
+              <ion-select-option value="FOOD">Food</ion-select-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item>
+            <ion-label>Interested Status</ion-label>
+            <ion-select placeholder="Select Status" formControlName="interestedStatus">
+              <ion-select-option value="ACCEPTED">Accepted</ion-select-option>
+              <ion-select-option value="PENDING">Pending</ion-select-option>
+            </ion-select>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+  <app-toast #toast></app-toast>
+</ion-content>
+<!-- <ion-footer>
+  <ion-toolbar>
+    <app-footer></app-footer>
+  </ion-toolbar>
+</ion-footer> -->

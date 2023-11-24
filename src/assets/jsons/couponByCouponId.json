@@ -1,0 +1,35 @@
+{
+    "couponId": 203488,
+    "couponTitle": "Kids Lighting",
+    "couponDesc": "10% OFF ORDERS $200+ For All Kid's Lighting",
+    "highLightText": "Hot OFF",
+    "couponCode": "KID10",
+    "couponLink": "https://www.shareasale.com/u.cfm?d=670188&m=49370&u=1231704",
+    "couponType": "C",
+    "storeLogo": "beautifulhalo.jpg",
+    "awsStoreLogo": "assets/imgs/logos/beautifulhalo.webp",
+    "storeName": "beautifulhalo",
+    "storeId": 251,
+    "storeSlug": "beautifulhalo-coupons",
+    "trackingId": "g7e3euaoxcepwiq",
+    "verificationInfo": "6 days ago",
+    "couponStatus": "published",
+    "user": {
+        "userName": "couponzcorner-CRON"
+    },
+    "store": {
+        "storeId": 251,
+        "storeName": "beautifulhalo",
+        "storeSlug": "beautifulhalo-coupons",
+        "storeLogo": "beautifulhalo.jpg",
+        "couponCount": 2,
+        "awsStoreLogo": "assets/imgs/logos/beautifulhalo.webp",
+        "storeHomeUrl": "www.beautifulhalo.com",
+        "storeCurrency": "USD",
+        "storeType": "",
+        "storeIsFeatured": true,
+        "storeIsActive": true
+    },
+    "couponEndDate": "16-06-2020",
+    "couponStartDate": "01-06-2020"
+}

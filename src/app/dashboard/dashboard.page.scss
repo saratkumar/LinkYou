@@ -1,0 +1,62 @@
+@use '../app.component.scss';
+
+.right-menu-buttons {
+  margin: auto;
+  display: flex;
+  gap: 10px;
+  font-size: 30px;
+}
+
+ion-card-content {
+  padding: 5px;
+}
+
+app-custom-label {
+  ion-label {
+    padding-left: 0px !important;
+  }
+  
+}
+
+ion-content {
+
+  ion-row {
+    width: 100%;
+    // margin-bottom: 10px;
+    p {
+      // padding-left: 5px;
+      font-size: 12px;
+    }
+  }
+
+  ion-card {
+    margin: 0;
+  }
+
+  .card {
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    label {
+      font-size: 10px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 1px
+    }
+
+    .card-header-div {
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  
+}
+
+
+ion-content {
+ --background: white
+}
+
+

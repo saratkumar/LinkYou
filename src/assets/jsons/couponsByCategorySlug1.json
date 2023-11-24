@@ -1,0 +1,842 @@
+[
+    {
+        "couponId": 201488,
+        "couponTitle": "Free Shipping on all orders above Rs. 999/-",
+        "highLightText": "Free Ship",
+        "couponLink": "https://www.homecentre.in/?utm_source=couponzcorner&utm_medium=couponzcorner&utm_campaign=couponzcorner",
+        "couponType": "P",
+        "storeLogo": "homecentre.jpg",
+        "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+        "storeName": "Homecentre",
+        "storeId": 56,
+        "storeSlug": "homecentre-coupons",
+        "trackingId": "dlicdy5ak14cfn3",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 56,
+            "storeName": "Homecentre",
+            "storeSlug": "homecentre-coupons",
+            "storeLogo": "homecentre.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+            "storeHomeUrl": "www.homecentre.in",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201487,
+        "couponTitle": "10% Extra on Your First App Order of Rs. 2499/- and above",
+        "highLightText": "10% OFF",
+        "couponCode": "HCAPP10",
+        "couponLink": "https://www.homecentre.in/?utm_source=couponzcorner&utm_medium=couponzcorner&utm_campaign=couponzcorner",
+        "couponType": "C",
+        "storeLogo": "homecentre.jpg",
+        "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+        "storeName": "Homecentre",
+        "storeId": 56,
+        "storeSlug": "homecentre-coupons",
+        "trackingId": "4lhu7pxou4aby6q",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 56,
+            "storeName": "Homecentre",
+            "storeSlug": "homecentre-coupons",
+            "storeLogo": "homecentre.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+            "storeHomeUrl": "www.homecentre.in",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201486,
+        "couponTitle": "Flat 40% OFF + 10% APP Only on Above Rs. 2999/-",
+        "couponDesc": "<ul>\n<li>40% OFF on Top Selling products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul><ul>\n<li>40% OFF on Top Selling products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul><ul>\n<li>40% OFF on Top Selling products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul>",
+        "highLightText": "50% OFF",
+        "couponCode": "HCAPP10",
+        "couponLink": "https://www.homecentre.in/?utm_source=couponzcorner&utm_medium=couponzcorner&utm_campaign=couponzcorner",
+        "couponType": "C",
+        "storeLogo": "homecentre.jpg",
+        "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+        "storeName": "Homecentre",
+        "storeId": 56,
+        "storeSlug": "homecentre-coupons",
+        "trackingId": "11lp4d6fczb82wz",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 56,
+            "storeName": "Homecentre",
+            "storeSlug": "homecentre-coupons",
+            "storeLogo": "homecentre.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+            "storeHomeUrl": "www.homecentre.in",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201485,
+        "couponTitle": "Flat 25% OFF + 10% APP Only on Above Rs. 2999/-",
+        "couponDesc": "<ul>\n<li>25% OFF on All Furniture products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul><ul>\n<li>25% OFF on All Furniture products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul><ul>\n<li>25% OFF on All Furniture products.</li>\n<li>Get Additional 10% OFF when you order through APP.</li>\n<li>Minimum purchase value = Rs. 2999/-</li>\n</ul>",
+        "highLightText": "35% OFF",
+        "couponLink": "https://www.homecentre.in/?utm_source=couponzcorner&utm_medium=couponzcorner&utm_campaign=couponzcorner",
+        "couponType": "P",
+        "storeLogo": "homecentre.jpg",
+        "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+        "storeName": "Homecentre",
+        "storeId": 56,
+        "storeSlug": "homecentre-coupons",
+        "trackingId": "h3e1vv6phbzsdmd",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 56,
+            "storeName": "Homecentre",
+            "storeSlug": "homecentre-coupons",
+            "storeLogo": "homecentre.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+            "storeHomeUrl": "www.homecentre.in",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201484,
+        "couponTitle": "Get 50% OFF on Furnitures, Home Décor & More",
+        "highLightText": "50% OFF",
+        "couponLink": "https://www.homecentre.in/?utm_source=couponzcorner&utm_medium=couponzcorner&utm_campaign=couponzcorner",
+        "couponType": "P",
+        "storeLogo": "homecentre.jpg",
+        "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+        "storeName": "Homecentre",
+        "storeId": 56,
+        "storeSlug": "homecentre-coupons",
+        "trackingId": "reuowommt4g8qql",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 56,
+            "storeName": "Homecentre",
+            "storeSlug": "homecentre-coupons",
+            "storeLogo": "homecentre.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/homecentre.webp",
+            "storeHomeUrl": "www.homecentre.in",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": false,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201479,
+        "couponTitle": "Get 7.5% Urban Ladder Voucher on Rs. 2L and above order",
+        "couponDesc": "<ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 2,00,000/-</li>\n<li>Maximum discount = 7.5% of total order value above Rs. 2Lac</li>\n</ul><ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 2,00,000/-</li>\n<li>Maximum discount = 7.5% of total order value above Rs. 2Lac</li>\n</ul><ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 2,00,000/-</li>\n<li>Maximum discount = 7.5% of total order value above Rs. 2Lac</li>\n</ul>",
+        "highLightText": "7.5% OFF",
+        "couponLink": "https://ad.admitad.com/g/115yfs8c9p60b7bd137ff263b46692/",
+        "couponType": "P",
+        "storeLogo": "urbanladder.jpg",
+        "awsStoreLogo": "assets/imgs/logos/urbanladder.webp",
+        "storeName": "Urbanladder",
+        "storeId": 53,
+        "storeSlug": "urbanladder-coupons",
+        "trackingId": "c2jvbnjdtlf5bef",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 53,
+            "storeName": "Urbanladder",
+            "storeSlug": "urbanladder-coupons",
+            "storeLogo": "urbanladder.jpg",
+            "couponCount": 2,
+            "awsStoreLogo": "assets/imgs/logos/urbanladder.webp",
+            "storeHomeUrl": "www.urbanladder.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 201478,
+        "couponTitle": "Get 5% Urban Ladder Voucher on Rs. 1L and above order",
+        "couponDesc": "<ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 1,00,000/-</li>\n<li>Maximum discount = 5% of total order value above Rs. 1Lac</li>\n</ul><ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 1,00,000/-</li>\n<li>Maximum discount = 5% of total order value above Rs. 1Lac</li>\n</ul><ul>\n<li>This is the shop more and gain more offer from Urban Ladder.</li>\n<li>Applicable for sitewide, all products.</li>\n<li>Applicable for both existing and new users.</li>\n<li>Minimum order value = Rs. 1,00,000/-</li>\n<li>Maximum discount = 5% of total order value above Rs. 1Lac</li>\n</ul>",
+        "highLightText": "5% OFF",
+        "couponLink": "https://ad.admitad.com/g/115yfs8c9p60b7bd137ff263b46692/",
+        "couponType": "P",
+        "storeLogo": "urbanladder.jpg",
+        "awsStoreLogo": "assets/imgs/logos/urbanladder.webp",
+        "storeName": "Urbanladder",
+        "storeId": 53,
+        "storeSlug": "urbanladder-coupons",
+        "trackingId": "5raqv2xusbtf12y",
+        "verificationInfo": "3 weeks ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 53,
+            "storeName": "Urbanladder",
+            "storeSlug": "urbanladder-coupons",
+            "storeLogo": "urbanladder.jpg",
+            "couponCount": 2,
+            "awsStoreLogo": "assets/imgs/logos/urbanladder.webp",
+            "storeHomeUrl": "www.urbanladder.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "01-06-2020"
+    },
+    {
+        "couponId": 151329,
+        "couponTitle": "Beer, Bed & Breakfast: Get 55% OFF At Chanalai Hillside Resort By Chanalai Hotels & Resorts, Karon Beach - Phuket",
+        "highLightText": "55% OFF",
+        "couponLink": "http://lamp.glopss.com/aff_c?offer_id=81&aff_id=126&type=offer&aff_sub5=feed&url=https://www.chanalai.com/en/resorts/hillside-resort/special-offers",
+        "couponType": "P",
+        "storeLogo": "chanalai.jpg",
+        "awsStoreLogo": "assets/imgs/logos/chanalai.webp",
+        "storeName": "chanalai",
+        "storeId": 829,
+        "storeSlug": "chanalai-coupons",
+        "trackingId": "tqoi895ndpz4zry",
+        "verificationInfo": "7 months ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            },
+            {
+                "categoryId": 12,
+                "categoryName": "Hotel",
+                "categorySlug": "hotel-coupons",
+                "categoryImage": "hotel.jpg",
+                "awsCategoryImage": "assets/imgs/logos/hotel.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-hotel"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 829,
+            "storeName": "chanalai",
+            "storeSlug": "chanalai-coupons",
+            "storeLogo": "chanalai.jpg",
+            "couponCount": 3,
+            "awsStoreLogo": "assets/imgs/logos/chanalai.webp",
+            "storeHomeUrl": "www.chanalai.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "31-10-2020",
+        "couponStartDate": "08-11-2019"
+    },
+    {
+        "couponId": 116030,
+        "couponTitle": "Dog Bed Sale",
+        "couponDesc": "Hot Sale! Soft Memory Foam Dog Bed Start from $19.99 Plus Free Shipping! Code CRAFS.",
+        "highLightText": "Hot OFF",
+        "couponCode": "CRAFS",
+        "couponLink": "https://www.shareasale.com/u.cfm?d=611099&m=88136&u=1231704",
+        "couponType": "C",
+        "storeLogo": "abbapatio.jpg",
+        "awsStoreLogo": "assets/imgs/logos/abbapatio.webp",
+        "storeName": "abbapatio",
+        "storeId": 943,
+        "storeSlug": "abbapatio-coupons",
+        "trackingId": "ngo66qh4by5om3s",
+        "verificationInfo": "10 months ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            },
+            {
+                "categoryId": 53,
+                "categoryName": "Pets",
+                "categorySlug": "pets-coupons",
+                "categoryImage": "pets.jpg",
+                "awsCategoryImage": "assets/imgs/logos/pets.webp",
+                "ionicIcon": "logo-octocat",
+                "faIcon": "fa-dog"
+            }
+        ],
+        "tags": [
+            {
+                "tagId": 204,
+                "tagName": "Free Shipping",
+                "tagSlug": "free-shipping-coupons",
+                "tagType": "offer_percent",
+                "tagMobileDisplayName": "Free Shipping"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 943,
+            "storeName": "abbapatio",
+            "storeSlug": "abbapatio-coupons",
+            "storeLogo": "abbapatio.jpg",
+            "couponCount": 15,
+            "awsStoreLogo": "assets/imgs/logos/abbapatio.webp",
+            "storeHomeUrl": "www.abbapatio.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-09-2024",
+        "couponStartDate": "29-08-2019"
+    },
+    {
+        "couponId": 113165,
+        "couponTitle": "Dog Bed Sale",
+        "highLightText": "Hot OFF",
+        "couponCode": "CRAFS",
+        "couponLink": "http://www.clixGalore.com/PSale.aspx?AdID=16615&AfID=281820&BID=197558&AffDirectURL=http%3a%2f%2fwww.365factoryoutlet.com%2fproducts%2fpet-bedmattress-filled-in-shredded-memory-foam-non-slip-bottom%3futm_source%3dclixgalore%26utm_medium%3daff%26utm_campaign%3d20190826",
+        "couponType": "C",
+        "storeLogo": "365factoryoutlet.jpg",
+        "storeName": "365factoryoutlet",
+        "storeId": 12049,
+        "storeSlug": "365factoryoutlet-coupons",
+        "trackingId": "wgvcnzdqgzlj3g6",
+        "verificationInfo": "10 months ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            },
+            {
+                "categoryId": 53,
+                "categoryName": "Pets",
+                "categorySlug": "pets-coupons",
+                "categoryImage": "pets.jpg",
+                "awsCategoryImage": "assets/imgs/logos/pets.webp",
+                "ionicIcon": "logo-octocat",
+                "faIcon": "fa-dog"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 12049,
+            "storeName": "365factoryoutlet",
+            "storeSlug": "365factoryoutlet-coupons",
+            "storeLogo": "365factoryoutlet.jpg",
+            "couponCount": 7,
+            "awsStoreLogo": "",
+            "storeHomeUrl": "www.365factoryoutlet.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "29-08-2021",
+        "couponStartDate": "29-08-2019"
+    },
+    {
+        "couponId": 50127,
+        "couponTitle": "Upto 87% OFF on Home Furniture With Free Shipping When You Start Or Join A Power Deal.",
+        "highLightText": "87% OFF",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=553346.62&type=3&subid=0",
+        "couponType": "P",
+        "storeLogo": "massgenie.jpg",
+        "awsStoreLogo": "assets/imgs/logos/massgenie.webp",
+        "storeName": "massgenie",
+        "storeId": 526,
+        "storeSlug": "massgenie-coupons",
+        "trackingId": "asean6c83dyfd9v",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "tags": [
+            {
+                "tagId": 204,
+                "tagName": "Free Shipping",
+                "tagSlug": "free-shipping-coupons",
+                "tagType": "offer_percent",
+                "tagMobileDisplayName": "Free Shipping"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 526,
+            "storeName": "massgenie",
+            "storeSlug": "massgenie-coupons",
+            "storeLogo": "massgenie.jpg",
+            "couponCount": 19,
+            "awsStoreLogo": "assets/imgs/logos/massgenie.webp",
+            "storeHomeUrl": "www.massgenie.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "18-01-2024",
+        "couponStartDate": "06-05-2019"
+    },
+    {
+        "couponId": 21830,
+        "couponTitle": "for A Limited Time! Ashley Home Stores Best Selling Sofas And Sectionals Starting At $299.99!",
+        "highLightText": "Hot OFF",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=539906.821&type=3&subid=0",
+        "couponType": "P",
+        "storeLogo": "ashleyfurniture.jpg",
+        "awsStoreLogo": "assets/imgs/logos/ashleyfurniture.webp",
+        "storeName": "ashleyfurniture",
+        "storeId": 842,
+        "storeSlug": "ashleyfurniture-coupons",
+        "trackingId": "apl7674bznzr94e",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 842,
+            "storeName": "ashleyfurniture",
+            "storeSlug": "ashleyfurniture-coupons",
+            "storeLogo": "ashleyfurniture.jpg",
+            "couponCount": 25,
+            "awsStoreLogo": "assets/imgs/logos/ashleyfurniture.webp",
+            "storeHomeUrl": "www.ashleyfurniture.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "04-02-2025",
+        "couponStartDate": "05-02-2019"
+    },
+    {
+        "couponId": 16353,
+        "couponTitle": "5% OFF Nest Bedding® Hybrid Latex Mattress Use Coupon Code Nest5 | Shop Now!",
+        "highLightText": "5% OFF",
+        "couponCode": "NEST5",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.195&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "uwpd0jbokhnx7w4",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "10-01-2025",
+        "couponStartDate": "11-01-2019"
+    },
+    {
+        "couponId": 16355,
+        "couponTitle": "5% OFF Certified Organic Mattress At Nestbedding.com Use Coupon Code Nest5 | Save Now!",
+        "highLightText": "5% OFF",
+        "couponCode": "NEST5",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.197&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "c5ubzczic8sjk1i",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "10-01-2025",
+        "couponStartDate": "11-01-2019"
+    },
+    {
+        "couponId": 16356,
+        "couponTitle": "5% OFF Alexander Signature Series® King Size Mattress Use Coupon Code Nest5 | Shop Nestbedding.com Now!",
+        "highLightText": "5% OFF",
+        "couponCode": "NEST5",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.198&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "sp0iy5akd5tszo2",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "10-01-2025",
+        "couponStartDate": "11-01-2019"
+    },
+    {
+        "couponId": 16357,
+        "couponTitle": "5% OFF Alexander Signature Hybrid Queen Size Mattress Use Coupon Code Nest5 | Shop Nestbedding.com Now!",
+        "highLightText": "5% OFF",
+        "couponCode": "NEST5",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.199&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "tmzgtv8slmpwdm4",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "10-01-2025",
+        "couponStartDate": "11-01-2019"
+    },
+    {
+        "couponId": 12943,
+        "couponTitle": "Save $100 OFF The Alexander Signature Series With Coupon Code: Omg100 | Shop for Your Dream Bed At Nestbedding.com!",
+        "highLightText": "Hot OFF",
+        "couponCode": "OMG100",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.33&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "8vubnkkwar31p86",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "03-01-2024",
+        "couponStartDate": "03-01-2018"
+    },
+    {
+        "couponId": 12945,
+        "couponTitle": "Save $150 OFF The Alexander Hybrid With Coupon Code: Omg150 | Shop for Your Dream Bed At Nestbedding.com!",
+        "highLightText": "Hot OFF",
+        "couponCode": "OMG150",
+        "couponLink": "https://click.linksynergy.com/fs-bin/click?id=jwkSS*yvj5c&offerid=626541.32&type=3&subid=0",
+        "couponType": "C",
+        "storeLogo": "nestbedding.jpg",
+        "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+        "storeName": "nestbedding",
+        "storeId": 412,
+        "storeSlug": "nestbedding-coupons",
+        "trackingId": "x89cnky9oa815yx",
+        "verificationInfo": "1 year ago",
+        "couponStatus": "published",
+        "categoryList": [
+            {
+                "categoryId": 39,
+                "categoryName": "Furniture",
+                "categorySlug": "furniture-coupons",
+                "categoryImage": "furniture.jpg",
+                "awsCategoryImage": "assets/imgs/logos/furniture.webp",
+                "ionicIcon": "",
+                "faIcon": "fa-couch"
+            }
+        ],
+        "user": {
+            "userName": "kfSpnq29Ech3FkQlrvYa1ctVuFd2"
+        },
+        "store": {
+            "storeId": 412,
+            "storeName": "nestbedding",
+            "storeSlug": "nestbedding-coupons",
+            "storeLogo": "nestbedding.jpg",
+            "couponCount": 14,
+            "awsStoreLogo": "assets/imgs/logos/nestbedding.webp",
+            "storeHomeUrl": "www.nestbedding.com",
+            "storeCurrency": "",
+            "storeType": "",
+            "storeIsActive": true
+        },
+        "couponEndDate": "03-01-2024",
+        "couponStartDate": "03-01-2018"
+    }
+]

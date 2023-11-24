@@ -1,0 +1,28 @@
+{
+    "responseCode": 200,
+    "message": "OK",
+    "status": "SUCCESS",
+    "token": "HDSPMRS2IG2DTIEUGX0GXG9WDRXZEL",
+    "data": [
+        {
+            "bannerId": 11,
+            "imageName": "JabongMay",
+            "imageFullPath": "assets/imgs/logos/1556962809657-may4jabong.jpg",
+            "linkType": "O",
+            "externalLink": "https://ad.admitad.com/g/th1bw6vg5q60b7bd137f8316cf038a/",
+            "targetType": "ANDROID",
+            "isActive": "Y",
+            "bannerType": "HOME_PAGE_TOP4_BANNERS"
+        },
+        {
+            "bannerId": 10,
+            "imageName": "AmazonMayDeal",
+            "imageFullPath": "assets/imgs/logos/1556962588610-may4amazon.png",
+            "linkType": "O",
+            "externalLink": "https://amzn.to/2V0eSyL",
+            "targetType": "ANDROID",
+            "isActive": "Y",
+            "bannerType": "HOME_PAGE_TOP4_BANNERS"
+        }
+    ]
+}

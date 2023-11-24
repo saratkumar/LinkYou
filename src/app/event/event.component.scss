@@ -1,0 +1,47 @@
+@use '../app.component.scss';
+
+ion-list {
+    border: 1px solid #808080;
+    padding: 0 !important;
+    margin-top: 10px;
+    border-radius: 5px;
+    
+    ion-item {
+        margin-top: 0 !important;
+    }
+}
+
+ion-item {
+    margin-top: 10px;
+}
+
+.imageP {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.image-placeholder {
+    width: 70px;
+    height: 70px;
+    // border: 1px dotted grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.file {
+     visibility: hidden;
+    position: absolute;
+}
+
+.delete-icon {
+    position: absolute;
+    color: red;
+    margin-left: 60px;
+    margin-top: -20px;
+    font-size: 20px
+}
+

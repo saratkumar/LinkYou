@@ -1,0 +1,26 @@
+[
+    {
+        "tagId": 187,
+        "tagName": "Adidas",
+        "tagSlug": "adidas-coupons",
+        "tagType": "brand",
+        "tagImage": "adidas.webp",
+        "couponCount": 27
+    },
+    {
+        "tagId": 100,
+        "tagName": "Nike",
+        "tagSlug": "nike-coupons",
+        "tagType": "brand",
+        "tagImage": "nike.webp",
+        "couponCount": 18
+    },
+    {
+        "tagId": 309,
+        "tagName": "Puma",
+        "tagSlug": "puma-coupons",
+        "tagType": "brand",
+        "tagImage": "puma.webp",
+        "couponCount": 9
+    }
+]

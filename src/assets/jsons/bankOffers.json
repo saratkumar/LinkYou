@@ -1,0 +1,141 @@
+[
+    {
+        "couponId": 204101,
+        "couponTitle": "Flat Rs.2000 Discount on Min Purchase Rs.25000",
+        "couponDesc": "Offer applicable on HDFC Credit Card and Credit Card EMI",
+        "highLightText": "Hot OFF",
+        "couponCode": "HDFC2000",
+        "couponLink": "http://tracking.vcommission.com/aff_c?offer_id=2792&aff_id=46301",
+        "couponType": "C",
+        "storeLogo": "tatacliq.jpg",
+        "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+        "storeName": "Tatacliq",
+        "storeId": 4,
+        "storeColor": "#1D1D1D",
+        "storeSlug": "tatacliq-coupons",
+        "trackingId": "2iqpfxjd6o8vyxa",
+        "verificationInfo": "6 days ago",
+        "couponStatus": "published",
+        "tags": [
+            {
+                "tagId": 79,
+                "tagName": "HDFC Bank Offers",
+                "tagSlug": "hdfc-offers-coupons",
+                "tagImage": "hdfc.webp",
+                "awsTagImage": "assets/imgs/logos/hdfc.webp",
+                "tagType": "bank",
+                "tagMobileDisplayName": "HDFC"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 4,
+            "storeName": "Tatacliq",
+            "storeSlug": "tatacliq-coupons",
+            "storeLogo": "tatacliq.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+            "storeHomeUrl": "www.tatacliq.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "02-06-2020"
+    },
+    {
+        "couponId": 202107,
+        "couponTitle": "Flat Rs.2000 Discount By Using Hdfc Credit Card| Min Purchase: Rs.25000",
+        "highLightText": "Hot OFF",
+        "couponCode": "HDFC2000",
+        "couponLink": "https://linksredirect.com/?pub_id=10305&url=https%3A%2F%2Fwww.tatacliq.com%2F",
+        "couponType": "C",
+        "storeLogo": "tatacliq.jpg",
+        "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+        "storeName": "Tatacliq",
+        "storeId": 4,
+        "storeColor": "#1D1D1D",
+        "storeSlug": "tatacliq-coupons",
+        "trackingId": "betwk1c3u9ssdan",
+        "verificationInfo": "2 weeks ago",
+        "couponStatus": "published",
+        "tags": [
+            {
+                "tagId": 79,
+                "tagName": "HDFC Bank Offers",
+                "tagSlug": "hdfc-offers-coupons",
+                "tagImage": "hdfc.webp",
+                "awsTagImage": "assets/imgs/logos/hdfc.webp",
+                "tagType": "bank",
+                "tagMobileDisplayName": "HDFC"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 4,
+            "storeName": "Tatacliq",
+            "storeSlug": "tatacliq-coupons",
+            "storeLogo": "tatacliq.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+            "storeHomeUrl": "www.tatacliq.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "02-06-2020"
+    },
+    {
+        "couponId": 202093,
+        "couponTitle": "Flat Rs.2000 Discount By Using Hdfc Credit Card| Min Purchase: Rs.25000",
+        "highLightText": "Hot OFF",
+        "couponCode": "HDFC2000",
+        "couponLink": "https://linksredirect.com/?pub_id=10305&url=https%3A%2F%2Fwww.tatacliq.com%2F",
+        "couponType": "C",
+        "storeLogo": "tatacliq.jpg",
+        "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+        "storeName": "Tatacliq",
+        "storeId": 4,
+        "storeColor": "#1D1D1D",
+        "storeSlug": "tatacliq-coupons",
+        "trackingId": "n7ndk7vot55dzgj",
+        "verificationInfo": "2 weeks ago",
+        "couponStatus": "published",
+        "tags": [
+            {
+                "tagId": 79,
+                "tagName": "HDFC Bank Offers",
+                "tagSlug": "hdfc-offers-coupons",
+                "tagImage": "hdfc.webp",
+                "awsTagImage": "assets/imgs/logos/hdfc.webp",
+                "tagType": "bank",
+                "tagMobileDisplayName": "HDFC"
+            }
+        ],
+        "user": {
+            "userName": "couponzcorner-CRON"
+        },
+        "store": {
+            "storeId": 4,
+            "storeName": "Tatacliq",
+            "storeSlug": "tatacliq-coupons",
+            "storeLogo": "tatacliq.jpg",
+            "couponCount": 5,
+            "awsStoreLogo": "assets/imgs/logos/tatacliq.webp",
+            "storeHomeUrl": "www.tatacliq.com",
+            "storeCurrency": "",
+            "storeType": "P",
+            "storeIsFeatured": true,
+            "storeIsActive": true
+        },
+        "couponEndDate": "30-06-2020",
+        "couponStartDate": "04-06-2020"
+    }
+]
